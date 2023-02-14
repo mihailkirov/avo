@@ -6,8 +6,8 @@ import (
 	"go/token"
 	"go/types"
 	"strconv"
-	"github.com/mkirov/avo/operand"
-	"github.com/mkirov/avo/reg"
+	"github.com/mihailkirov/avo/operand"
+	"github.com/mihailkirov/avo/reg"
 )
 
 // Sizes provides type sizes used by the standard Go compiler on amd64.

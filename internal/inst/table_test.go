@@ -6,10 +6,10 @@ import (
 	"sort"
 	"strings"
 	"testing"
-	"github.com/mkirov/avo/internal/gen"
-	"github.com/mkirov/avo/internal/inst"
-	"github.com/mkirov/avo/internal/test"
-	"github.com/mkirov/avo/printer"
+	"github.com/mihailkirov/avo/internal/gen"
+	"github.com/mihailkirov/avo/internal/inst"
+	"github.com/mihailkirov/avo/internal/test"
+	"github.com/mihailkirov/avo/printer"
 )
 
 func TestHaveInstructions(t *testing.T) {

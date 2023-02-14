@@ -3,7 +3,7 @@
 package main
 
 import (
-	. "github.com/mkirov/avo/build"
+	. "github.com/mihailkirov/avo/build"
 )
 
 func main() {

@@ -2,10 +2,10 @@
 
 package main
 
-import . "github.com/mkirov/avo/build"
+import . "github.com/mihailkirov/avo/build"
 
 func main() {
-	Package("github.com/mkirov/avo/examples/args")
+	Package("github.com/mihailkirov/avo/examples/args")
 
 	TEXT("Second", NOSPLIT, "func(x, y int32) int32")
 	y := Load(Param("y"), GP32())

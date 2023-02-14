@@ -3,10 +3,10 @@ package printer
 import (
 	"strconv"
 	"strings"
-	"github.com/mkirov/avo/buildtags"
-	"github.com/mkirov/avo/internal/prnt"
-	"github.com/mkirov/avo/ir"
-	"github.com/mkirov/avo/operand"
+	"github.com/mihailkirov/avo/buildtags"
+	"github.com/mihailkirov/avo/internal/prnt"
+	"github.com/mihailkirov/avo/ir"
+	"github.com/mihailkirov/avo/operand"
 )
 
 // dot is the pesky unicode dot used in Go assembly.

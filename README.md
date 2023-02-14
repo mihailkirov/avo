@@ -1,9 +1,9 @@
 <p align="center">
   <img src="logo.svg" width="40%" border="0" alt="avo" />
   <br />
-  <img src="https://img.shields.io/github/actions/workflow/status/mkirov/avo/ci.yml?style=flat-square" alt="Build Status" />
-  <a href="https://pkg.go.dev/github.com/mkirov/avo"><img src="https://img.shields.io/badge/doc-reference-007d9b?logo=go&style=flat-square" alt="go.dev" /></a>
-  <a href="https://goreportcard.com/report/github.com/mkirov/avo"><img src="https://goreportcard.com/badge/github.com/mkirov/avo?style=flat-square" alt="Go Report Card" /></a>
+  <img src="https://img.shields.io/github/actions/workflow/status/mihailkirov/avo/ci.yml?style=flat-square" alt="Build Status" />
+  <a href="https://pkg.go.dev/github.com/mihailkirov/avo"><img src="https://img.shields.io/badge/doc-reference-007d9b?logo=go&style=flat-square" alt="go.dev" /></a>
+  <a href="https://goreportcard.com/report/github.com/mihailkirov/avo"><img src="https://goreportcard.com/badge/github.com/mihailkirov/avo?style=flat-square" alt="Go Report Card" /></a>
 </p>
 
 <p align="center">Generate x86 Assembly with Go</p>
@@ -17,8 +17,8 @@
 
 For more about `avo`:
 
-* Introductory talk ["Better `x86` Assembly Generation with Go"](https://www.youtube.com/watch?v=6Y5CZ7_tyA4) at [dotGo 2019](https://2019.dotgo.eu/) ([slides](https://speakerdeck.com/mkirov/better-x86-assembly-generation-with-go))
-* [Longer tutorial at Gophercon 2019](https://www.youtube.com/watch?v=WaD8sNqroAw) showing a highly-optimized dot product ([slides](https://speakerdeck.com/mkirov/better-x86-assembly-generation-with-go-gophercon-2019))
+* Introductory talk ["Better `x86` Assembly Generation with Go"](https://www.youtube.com/watch?v=6Y5CZ7_tyA4) at [dotGo 2019](https://2019.dotgo.eu/) ([slides](https://speakerdeck.com/mihailkirov/better-x86-assembly-generation-with-go))
+* [Longer tutorial at Gophercon 2019](https://www.youtube.com/watch?v=WaD8sNqroAw) showing a highly-optimized dot product ([slides](https://speakerdeck.com/mihailkirov/better-x86-assembly-generation-with-go-gophercon-2019))
 * Watch [Filippo Valsorda](https://filippo.io/) live code the [rewrite of `filippo.io/edwards25519` assembly with `avo`](https://vimeo.com/679848853)
 * Explore [projects using `avo`](doc/adopters.md)
 * Discuss `avo` and general Go assembly topics in the [#assembly](https://gophers.slack.com/archives/C6WDZJ70S) channel of [Gophers Slack](https://invite.slack.golangbridge.org/)
@@ -30,7 +30,7 @@ _Note: APIs subject to change while `avo` is still in an experimental phase. You
 Install `avo` with `go get`:
 
 ```
-$ go get -u github.com/mkirov/avo
+$ go get -u github.com/mihailkirov/avo
 ```
 
 `avo` assembly generators are pure Go programs. Here's a function that adds two `uint64` values:
@@ -40,7 +40,7 @@ $ go get -u github.com/mkirov/avo
 
 package main
 
-import . "github.com/mkirov/avo/build"
+import . "github.com/mihailkirov/avo/build"
 
 func main() {
 	TEXT("Add", NOSPLIT, "func(x, y uint64) uint64")
@@ -240,14 +240,14 @@ See the [full list of projects using `avo`](doc/adopters.md).
 
 Contributions to `avo` are welcome:
 
-* Feedback from using `avo` in a real project is incredibly valuable. Consider [porting an existing project to `avo`](https://github.com/mkirov/avo/issues/40).
-* [Submit bug reports](https://github.com/mkirov/avo/issues/new) to the issues page.
-* Pull requests accepted. Take a look at outstanding [issues](https://github.com/mkirov/avo/issues) for ideas (especially the ["good first issue"](https://github.com/mkirov/avo/labels/good%20first%20issue) label).
+* Feedback from using `avo` in a real project is incredibly valuable. Consider [porting an existing project to `avo`](https://github.com/mihailkirov/avo/issues/40).
+* [Submit bug reports](https://github.com/mihailkirov/avo/issues/new) to the issues page.
+* Pull requests accepted. Take a look at outstanding [issues](https://github.com/mihailkirov/avo/issues) for ideas (especially the ["good first issue"](https://github.com/mihailkirov/avo/labels/good%20first%20issue) label).
 * Join us in the [#assembly](https://gophers.slack.com/archives/C6WDZJ70S) channel of [Gophers Slack](https://invite.slack.golangbridge.org/).
 
 ## Credits
 
-Inspired by the [PeachPy](https://github.com/Maratyszcza/PeachPy) and [asmjit](https://github.com/asmjit/asmjit) projects. Thanks to [Damian Gryski](https://github.com/dgryski) for advice, and his [extensive library of PeachPy Go projects](https://github.com/mkirov/avo/issues/40).
+Inspired by the [PeachPy](https://github.com/Maratyszcza/PeachPy) and [asmjit](https://github.com/asmjit/asmjit) projects. Thanks to [Damian Gryski](https://github.com/dgryski) for advice, and his [extensive library of PeachPy Go projects](https://github.com/mihailkirov/avo/issues/40).
 
 ## License
 

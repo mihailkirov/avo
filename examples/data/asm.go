@@ -4,8 +4,8 @@ package main
 
 import (
 	"math"
-	. "github.com/mkirov/avo/build"
-	. "github.com/mkirov/avo/operand"
+	. "github.com/mihailkirov/avo/build"
+	. "github.com/mihailkirov/avo/operand"
 )
 
 func main() {

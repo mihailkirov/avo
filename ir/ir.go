@@ -2,11 +2,11 @@ package ir
 
 import (
 	"errors"
-	"github.com/mkirov/avo/attr"
-	"github.com/mkirov/avo/buildtags"
-	"github.com/mkirov/avo/gotypes"
-	"github.com/mkirov/avo/operand"
-	"github.com/mkirov/avo/reg"
+	"github.com/mihailkirov/avo/attr"
+	"github.com/mihailkirov/avo/buildtags"
+	"github.com/mihailkirov/avo/gotypes"
+	"github.com/mihailkirov/avo/operand"
+	"github.com/mihailkirov/avo/reg"
 )
 
 // Node is a part of a Function.

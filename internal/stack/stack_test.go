@@ -3,10 +3,10 @@ package stack_test
 import (
 	"runtime"
 	"testing"
-	"github.com/mkirov/avo/internal/stack"
+	"github.com/mihailkirov/avo/internal/stack"
 )
 
-const pkg = "github.com/mkirov/avo/internal/stack_test"
+const pkg = "github.com/mihailkirov/avo/internal/stack_test"
 
 func TestFramesFirst(t *testing.T) {
 	fs := stack.Frames(0, 1)

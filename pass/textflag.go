@@ -1,8 +1,8 @@
 package pass
 
 import (
-	"github.com/mkirov/avo/attr"
-	"github.com/mkirov/avo/ir"
+	"github.com/mihailkirov/avo/attr"
+	"github.com/mihailkirov/avo/ir"
 )
 
 // IncludeTextFlagHeader includes textflag.h if necessary.

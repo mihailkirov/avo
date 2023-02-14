@@ -2,7 +2,7 @@
 
 package main
 
-import . "github.com/mkirov/avo/build"
+import . "github.com/mihailkirov/avo/build"
 
 func main() {
 	TEXT("Issue50", NOSPLIT, "func(x uint32) uint32")

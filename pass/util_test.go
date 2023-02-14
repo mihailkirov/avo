@@ -2,10 +2,10 @@ package pass_test
 
 import (
 	"testing"
-	"github.com/mkirov/avo/build"
-	"github.com/mkirov/avo/internal/test"
-	"github.com/mkirov/avo/ir"
-	"github.com/mkirov/avo/pass"
+	"github.com/mihailkirov/avo/build"
+	"github.com/mihailkirov/avo/internal/test"
+	"github.com/mihailkirov/avo/ir"
+	"github.com/mihailkirov/avo/pass"
 )
 
 // BuildFunction is a helper to compile a build context containing a single

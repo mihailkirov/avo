@@ -1,9 +1,9 @@
 package gen
 
 import (
-	"github.com/mkirov/avo/internal/api"
-	"github.com/mkirov/avo/internal/inst"
-	"github.com/mkirov/avo/internal/prnt"
+	"github.com/mihailkirov/avo/internal/api"
+	"github.com/mihailkirov/avo/internal/inst"
+	"github.com/mihailkirov/avo/internal/prnt"
 )
 
 // DeclareTestArguments prints a block of variables declaring a valid operand of

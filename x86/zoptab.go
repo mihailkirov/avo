@@ -3,8 +3,8 @@
 package x86
 
 import (
-	"github.com/mkirov/avo/operand"
-	"github.com/mkirov/avo/reg"
+	"github.com/mihailkirov/avo/operand"
+	"github.com/mihailkirov/avo/reg"
 )
 
 // maxoperands is the maximum number of operands in an instruction form, including implicit operands.

@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 	"text/tabwriter"
-	"github.com/mkirov/avo/internal/inst"
+	"github.com/mihailkirov/avo/internal/inst"
 )
 
 // Function represents a function that constructs some collection of

@@ -5,8 +5,8 @@ import (
 	"flag"
 	"testing"
 	"time"
-	"github.com/mkirov/avo/internal/github"
-	"github.com/mkirov/avo/internal/test"
+	"github.com/mihailkirov/avo/internal/github"
+	"github.com/mihailkirov/avo/internal/test"
 )
 
 var update = flag.Bool("update", false, "update project metadata")
@@ -80,7 +80,7 @@ func TestSuiteFileKnownIssues(t *testing.T) {
 			t.Errorf("%s: skipped package must refer to known issue", prj.ID())
 		}
 
-		issue, err := g.Issue(ctx, "mkirov", "avo", prj.KnownIssue)
+		issue, err := g.Issue(ctx, "mihailkirov", "avo", prj.KnownIssue)
 		if err != nil {
 			t.Fatal(err)
 		}

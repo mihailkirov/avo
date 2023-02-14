@@ -2,10 +2,10 @@
 
 package main
 
-import . "github.com/mkirov/avo/build"
+import . "github.com/mihailkirov/avo/build"
 
 func main() {
-	Package("github.com/mkirov/avo/tests/fixedbugs/issue62")
+	Package("github.com/mihailkirov/avo/tests/fixedbugs/issue62")
 	Implement("private")
 	RET()
 	Generate()

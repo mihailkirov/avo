@@ -8,10 +8,10 @@ import (
 	"log"
 	"os"
 	"path/filepath"
-	"github.com/mkirov/avo/internal/gen"
-	"github.com/mkirov/avo/internal/inst"
-	"github.com/mkirov/avo/internal/load"
-	"github.com/mkirov/avo/printer"
+	"github.com/mihailkirov/avo/internal/gen"
+	"github.com/mihailkirov/avo/internal/inst"
+	"github.com/mihailkirov/avo/internal/load"
+	"github.com/mihailkirov/avo/printer"
 )
 
 var generators = map[string]gen.Builder{
@@ -33,7 +33,7 @@ var (
 	bootstrap = flag.Bool("bootstrap", false, "regenerate instruction list from original data")
 	datadir   = flag.String(
 		"data",
-		filepath.Join(build.Default.GOPATH, "src/github.com/mkirov/avo/internal/data"),
+		filepath.Join(build.Default.GOPATH, "src/github.com/mihailkirov/avo/internal/data"),
 		"path to data directory",
 	)
 	output = flag.String("output", "", "path to output file (default stdout)")

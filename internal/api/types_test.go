@@ -3,7 +3,7 @@ package api
 import (
 	"go/token"
 	"testing"
-	"github.com/mkirov/avo/internal/inst"
+	"github.com/mihailkirov/avo/internal/inst"
 )
 
 func TestISAsIdentifier(t *testing.T) {

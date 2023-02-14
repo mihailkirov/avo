@@ -3,7 +3,7 @@ package opcodesextra
 
 import (
 	"sort"
-	"github.com/mkirov/avo/internal/inst"
+	"github.com/mihailkirov/avo/internal/inst"
 )
 
 // sets of extra instructions.

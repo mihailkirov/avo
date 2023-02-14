@@ -6,8 +6,8 @@ import (
 	"go/types"
 	"strings"
 	"testing"
-	"github.com/mkirov/avo/operand"
-	"github.com/mkirov/avo/reg"
+	"github.com/mihailkirov/avo/operand"
+	"github.com/mihailkirov/avo/reg"
 )
 
 func TestBasicKindsArePrimitive(t *testing.T) {

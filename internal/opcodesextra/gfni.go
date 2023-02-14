@@ -1,6 +1,6 @@
 package opcodesextra
 
-import "github.com/mkirov/avo/internal/inst"
+import "github.com/mihailkirov/avo/internal/inst"
 
 // gfni is the "Galois Field New Instructions" instruction set.
 var gfni = []*inst.Instruction{

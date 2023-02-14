@@ -1,6 +1,6 @@
 package opcodesextra
 
-import "github.com/mkirov/avo/internal/inst"
+import "github.com/mihailkirov/avo/internal/inst"
 
 // vpopcntdq is the "Vector Population Count" instruction set.
 var vpopcntdq = []*inst.Instruction{

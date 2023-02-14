@@ -5,10 +5,10 @@ import (
 	"sort"
 	"strconv"
 	"strings"
-	"github.com/mkirov/avo/internal/api"
-	"github.com/mkirov/avo/internal/inst"
-	"github.com/mkirov/avo/internal/prnt"
-	"github.com/mkirov/avo/printer"
+	"github.com/mihailkirov/avo/internal/api"
+	"github.com/mihailkirov/avo/internal/inst"
+	"github.com/mihailkirov/avo/internal/prnt"
+	"github.com/mihailkirov/avo/printer"
 )
 
 type optab struct {

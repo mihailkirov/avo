@@ -3,8 +3,8 @@
 package x86
 
 import (
-	intrep "github.com/mkirov/avo/ir"
-	"github.com/mkirov/avo/operand"
+	intrep "github.com/mihailkirov/avo/ir"
+	"github.com/mihailkirov/avo/operand"
 )
 
 // ADCB: Add with Carry.

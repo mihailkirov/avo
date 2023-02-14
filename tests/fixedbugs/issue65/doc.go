@@ -3,7 +3,7 @@
 // Regression test for a bug where casting a physical register would give the
 // error "non physical register found".
 //
-// See: https://github.com/mkirov/avo/issues/65#issuecomment-576850145
+// See: https://github.com/mihailkirov/avo/issues/65#issuecomment-576850145
 package issue65
 
 //go:generate go run asm.go -out issue65.s -stubs stub.go

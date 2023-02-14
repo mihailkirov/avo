@@ -2,9 +2,9 @@ package printer
 
 import (
 	"go/format"
-	"github.com/mkirov/avo/buildtags"
-	"github.com/mkirov/avo/internal/prnt"
-	"github.com/mkirov/avo/ir"
+	"github.com/mihailkirov/avo/buildtags"
+	"github.com/mihailkirov/avo/internal/prnt"
+	"github.com/mihailkirov/avo/ir"
 )
 
 type stubs struct {

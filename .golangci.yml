@@ -44,13 +44,13 @@ linters-settings:
   depguard:
     list-type: whitelist
     packages:
-      - github.com/mkirov/avo
+      - github.com/mihailkirov/avo
       - golang.org/x/
   gci:
     sections:
       - standard
       - default
-      - prefix(github.com/mkirov/avo)
+      - prefix(github.com/mihailkirov/avo)
 issues:
   exclude-use-default: false
   exclude:

@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"sort"
 	"testing"
-	"github.com/mkirov/avo/ir"
-	"github.com/mkirov/avo/operand"
+	"github.com/mihailkirov/avo/ir"
+	"github.com/mihailkirov/avo/operand"
 )
 
 func TestLabelTarget(t *testing.T) {

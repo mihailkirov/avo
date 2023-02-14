@@ -1,5 +1,5 @@
 Regression test for [issue
-#100](https://github.com/mkirov/avo/issues/100) based on the original
+#100](https://github.com/mihailkirov/avo/issues/100) based on the original
 reported allocation failure.
 
 Based on the pull request

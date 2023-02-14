@@ -72,7 +72,7 @@ A pure-Go wyhash implementation.
 
 Go Deoxys-II-256-128
 
-<img src="https://images.weserv.nl?fit=cover&h=28&mask=circle&maxage=7d&url=https%3A%2F%2Fgithub.com%2Fmkirov.png&w=28" width="28" height="28" hspace="4" valign="middle" /> [mkirov / **md4**](https://github.com/mkirov/md4)
+<img src="https://images.weserv.nl?fit=cover&h=28&mask=circle&maxage=7d&url=https%3A%2F%2Fgithub.com%2Fmihailkirov.png&w=28" width="28" height="28" hspace="4" valign="middle" /> [mihailkirov / **md4**](https://github.com/mihailkirov/md4)
 
 Assembly-optimized MD4 hash algorithm in Go
 

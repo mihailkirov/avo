@@ -3,8 +3,8 @@ package printer_test
 import (
 	"strings"
 	"testing"
-	"github.com/mkirov/avo/build"
-	"github.com/mkirov/avo/printer"
+	"github.com/mihailkirov/avo/build"
+	"github.com/mihailkirov/avo/printer"
 )
 
 func AssertPrintsLines(t *testing.T, ctx *build.Context, pb printer.Builder, expect []string) {

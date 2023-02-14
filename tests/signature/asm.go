@@ -8,9 +8,9 @@ import (
 	"go/token"
 	"go/types"
 	"math/rand"
-	. "github.com/mkirov/avo/build"
-	. "github.com/mkirov/avo/gotypes"
-	. "github.com/mkirov/avo/reg"
+	. "github.com/mihailkirov/avo/build"
+	. "github.com/mihailkirov/avo/gotypes"
+	. "github.com/mihailkirov/avo/reg"
 )
 
 var (

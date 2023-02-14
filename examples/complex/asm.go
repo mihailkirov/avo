@@ -2,7 +2,7 @@
 
 package main
 
-import . "github.com/mkirov/avo/build"
+import . "github.com/mihailkirov/avo/build"
 
 func main() {
 	TEXT("Real", NOSPLIT, "func(z complex128) float64")

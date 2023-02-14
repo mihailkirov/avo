@@ -1,6 +1,6 @@
 package operand
 
-import "github.com/mkirov/avo/reg"
+import "github.com/mihailkirov/avo/reg"
 
 // Pure type assertion checks:
 

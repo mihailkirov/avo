@@ -3,8 +3,8 @@ package ir
 import (
 	"reflect"
 	"testing"
-	"github.com/mkirov/avo/operand"
-	"github.com/mkirov/avo/reg"
+	"github.com/mihailkirov/avo/operand"
+	"github.com/mihailkirov/avo/reg"
 )
 
 func TestFunctionLabels(t *testing.T) {

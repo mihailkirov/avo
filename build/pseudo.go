@@ -1,10 +1,10 @@
 package build
 
 import (
-	"github.com/mkirov/avo/attr"
-	"github.com/mkirov/avo/gotypes"
-	"github.com/mkirov/avo/operand"
-	"github.com/mkirov/avo/reg"
+	"github.com/mihailkirov/avo/attr"
+	"github.com/mihailkirov/avo/gotypes"
+	"github.com/mihailkirov/avo/operand"
+	"github.com/mihailkirov/avo/reg"
 )
 
 //go:generate avogen -output zmov.go mov

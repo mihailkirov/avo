@@ -2,7 +2,7 @@ package gotypes_test
 
 import (
 	"fmt"
-	"github.com/mkirov/avo/gotypes"
+	"github.com/mihailkirov/avo/gotypes"
 )
 
 func ExampleParseSignature() {

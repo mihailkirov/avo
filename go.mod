@@ -1,4 +1,4 @@
-module github.com/mkirov/avo
+module github.com/mihailkirov/avo
 
 go 1.18
 

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sort"
 	"strings"
-	"github.com/mkirov/avo/internal/api"
-	"github.com/mkirov/avo/internal/inst"
+	"github.com/mihailkirov/avo/internal/api"
+	"github.com/mihailkirov/avo/internal/inst"
 )
 
 // Enum is a generated enumeration type. This assists with mapping between the

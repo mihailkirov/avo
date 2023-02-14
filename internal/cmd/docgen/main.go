@@ -16,7 +16,7 @@ import (
 	"strconv"
 	"strings"
 	"text/template"
-	"github.com/mkirov/avo/tests/thirdparty"
+	"github.com/mihailkirov/avo/tests/thirdparty"
 )
 
 func main() {

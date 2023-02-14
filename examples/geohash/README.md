@@ -2,7 +2,7 @@
 
 Integer [geohash](https://en.wikipedia.org/wiki/Geohash) encoding.
 
-Refer to ["Geohash in Golang Assembly"](https://mkirov.com/posts/geohash-assembly) for implementation details.
+Refer to ["Geohash in Golang Assembly"](https://mihailkirov.com/posts/geohash-assembly) for implementation details.
 
 [embedmd]:# (asm.go /func main/ $)
 ```go

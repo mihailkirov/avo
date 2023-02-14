@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net/http"
 	"testing"
-	"github.com/mkirov/avo/internal/test"
+	"github.com/mihailkirov/avo/internal/test"
 )
 
 func TestClientRepository(t *testing.T) {

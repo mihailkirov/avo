@@ -2,7 +2,7 @@ package operand
 
 import (
 	"fmt"
-	"github.com/mkirov/avo/reg"
+	"github.com/mihailkirov/avo/reg"
 )
 
 // Op is an operand.
