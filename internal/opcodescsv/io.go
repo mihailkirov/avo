@@ -2,7 +2,6 @@ package opcodescsv
 
 import (
 	"os"
-
 	"golang.org/x/arch/x86/x86csv"
 )
 

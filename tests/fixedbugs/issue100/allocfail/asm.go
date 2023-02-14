@@ -5,7 +5,6 @@ package main
 import (
 	"fmt"
 	"log"
-
 	. "github.com/mmcloughlin/avo/build"
 	"github.com/mmcloughlin/avo/buildtags"
 	"github.com/mmcloughlin/avo/operand"

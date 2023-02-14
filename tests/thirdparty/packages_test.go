@@ -7,7 +7,6 @@ import (
 	"path/filepath"
 	"runtime"
 	"testing"
-
 	"github.com/mmcloughlin/avo/internal/test"
 )
 

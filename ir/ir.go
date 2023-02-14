@@ -2,7 +2,6 @@ package ir
 
 import (
 	"errors"
-
 	"github.com/mmcloughlin/avo/attr"
 	"github.com/mmcloughlin/avo/buildtags"
 	"github.com/mmcloughlin/avo/gotypes"

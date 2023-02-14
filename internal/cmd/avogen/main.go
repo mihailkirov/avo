@@ -8,7 +8,6 @@ import (
 	"log"
 	"os"
 	"path/filepath"
-
 	"github.com/mmcloughlin/avo/internal/gen"
 	"github.com/mmcloughlin/avo/internal/inst"
 	"github.com/mmcloughlin/avo/internal/load"

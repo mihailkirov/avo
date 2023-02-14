@@ -3,7 +3,6 @@ package api
 import (
 	"strings"
 	"testing"
-
 	"github.com/mmcloughlin/avo/internal/inst"
 )
 

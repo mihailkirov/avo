@@ -5,7 +5,6 @@ import (
 	"reflect"
 	"runtime"
 	"testing"
-
 	"github.com/mmcloughlin/avo/reg"
 )
 

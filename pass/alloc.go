@@ -4,7 +4,6 @@ import (
 	"errors"
 	"math"
 	"sort"
-
 	"github.com/mmcloughlin/avo/reg"
 )
 

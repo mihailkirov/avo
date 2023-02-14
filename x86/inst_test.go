@@ -3,7 +3,6 @@ package x86
 import (
 	"reflect"
 	"testing"
-
 	"github.com/mmcloughlin/avo/ir"
 	"github.com/mmcloughlin/avo/operand"
 	"github.com/mmcloughlin/avo/reg"

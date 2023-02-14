@@ -2,7 +2,6 @@ package geohash
 
 import (
 	"testing"
-
 	"golang.org/x/sys/cpu"
 )
 

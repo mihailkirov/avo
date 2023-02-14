@@ -6,7 +6,6 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
-
 	"github.com/mmcloughlin/avo/internal/stack"
 	"github.com/mmcloughlin/avo/ir"
 )

@@ -2085,6 +2085,12 @@ var Instructions = []Instruction{
 				},
 				EncodingType: 0x1,
 			},
+			{
+				Operands: []Operand{
+					{Type: "r64", Action: 0x1},
+				},
+				EncodingType: 0x2,
+			},
 		},
 	},
 	{

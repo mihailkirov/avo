@@ -16,7 +16,6 @@ import (
 	"strconv"
 	"strings"
 	"text/template"
-
 	"github.com/mmcloughlin/avo/tests/thirdparty"
 )
 

@@ -4,7 +4,6 @@ import (
 	"reflect"
 	"strconv"
 	"strings"
-
 	"golang.org/x/arch/x86/x86csv"
 )
 

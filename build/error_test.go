@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"log"
 	"testing"
-
 	"github.com/mmcloughlin/avo/src"
 )
 

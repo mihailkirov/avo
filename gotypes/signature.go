@@ -7,7 +7,6 @@ import (
 	"go/token"
 	"go/types"
 	"strconv"
-
 	"github.com/mmcloughlin/avo/operand"
 )
 

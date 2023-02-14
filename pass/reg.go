@@ -2,7 +2,6 @@ package pass
 
 import (
 	"errors"
-
 	"github.com/mmcloughlin/avo/gotypes"
 	"github.com/mmcloughlin/avo/ir"
 	"github.com/mmcloughlin/avo/operand"

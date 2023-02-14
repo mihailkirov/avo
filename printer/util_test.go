@@ -3,7 +3,6 @@ package printer_test
 import (
 	"strings"
 	"testing"
-
 	"github.com/mmcloughlin/avo/build"
 	"github.com/mmcloughlin/avo/printer"
 )

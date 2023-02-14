@@ -2882,7 +2882,7 @@
         <CodeOffset size="4" value="#0"/>
       </Encoding>
     </InstructionForm>
-    <InstructionForm gas-name="callq">
+    <InstructionForm gas-name="call">
       <Operand type="r64" input="true" output="false"/>
       <Encoding>
         <REX mandatory="false" W="0" B="#0"/>

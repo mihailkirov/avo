@@ -2,7 +2,6 @@ package buildtags_test
 
 import (
 	"fmt"
-
 	"github.com/mmcloughlin/avo/buildtags"
 )
 

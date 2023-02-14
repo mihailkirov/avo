@@ -2,7 +2,6 @@ package pass_test
 
 import (
 	"testing"
-
 	"github.com/mmcloughlin/avo/build"
 	"github.com/mmcloughlin/avo/internal/test"
 	"github.com/mmcloughlin/avo/ir"

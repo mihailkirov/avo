@@ -780,6 +780,7 @@ func BZHIQ(r, mr, r1 operand.Op) (*intrep.Instruction, error) {
 // Forms:
 //
 //	CALL rel32
+//	CALL r64
 func CALL(r operand.Op) (*intrep.Instruction, error) {
 	return build(opcCALL.Forms(), sffxs{}, []operand.Op{r})
 }

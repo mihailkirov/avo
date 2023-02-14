@@ -2,7 +2,6 @@ package src_test
 
 import (
 	"fmt"
-
 	"github.com/mmcloughlin/avo/src"
 )
 

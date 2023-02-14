@@ -4,7 +4,6 @@ import (
 	"errors"
 	"fmt"
 	"log"
-
 	"github.com/mmcloughlin/avo/internal/stack"
 	"github.com/mmcloughlin/avo/src"
 )

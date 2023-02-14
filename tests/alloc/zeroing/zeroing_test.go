@@ -2,7 +2,6 @@ package zeroing
 
 import (
 	"testing"
-
 	"golang.org/x/sys/cpu"
 )
 

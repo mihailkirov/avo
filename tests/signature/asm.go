@@ -8,7 +8,6 @@ import (
 	"go/token"
 	"go/types"
 	"math/rand"
-
 	. "github.com/mmcloughlin/avo/build"
 	. "github.com/mmcloughlin/avo/gotypes"
 	. "github.com/mmcloughlin/avo/reg"

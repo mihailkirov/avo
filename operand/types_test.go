@@ -3,7 +3,6 @@ package operand
 import (
 	"reflect"
 	"testing"
-
 	"github.com/mmcloughlin/avo/reg"
 )
 

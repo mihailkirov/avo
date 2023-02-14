@@ -1761,6 +1761,7 @@ func BZHIQ(r, mr, r1 operand.Op) { ctx.BZHIQ(r, mr, r1) }
 // Forms:
 //
 //	CALL rel32
+//	CALL r64
 //
 // Construct and append a CALL instruction to the active function.
 func (c *Context) CALL(r operand.Op) {
@@ -1772,6 +1773,7 @@ func (c *Context) CALL(r operand.Op) {
 // Forms:
 //
 //	CALL rel32
+//	CALL r64
 //
 // Construct and append a CALL instruction to the active function.
 // Operates on the global context.

@@ -12,7 +12,6 @@ import (
 	"os"
 	"path/filepath"
 	"runtime"
-
 	"github.com/mmcloughlin/avo/attr"
 )
 

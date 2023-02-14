@@ -3,7 +3,6 @@ package pass
 import (
 	"errors"
 	"fmt"
-
 	"github.com/mmcloughlin/avo/ir"
 )
 

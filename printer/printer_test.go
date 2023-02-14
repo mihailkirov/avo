@@ -2,7 +2,6 @@ package printer_test
 
 import (
 	"fmt"
-
 	"github.com/mmcloughlin/avo/printer"
 )
 

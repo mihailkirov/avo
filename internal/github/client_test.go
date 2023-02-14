@@ -5,7 +5,6 @@ import (
 	"encoding/json"
 	"net/http"
 	"testing"
-
 	"github.com/mmcloughlin/avo/internal/test"
 )
 

@@ -3,7 +3,6 @@ package pass_test
 import (
 	"reflect"
 	"testing"
-
 	"github.com/mmcloughlin/avo/build"
 	"github.com/mmcloughlin/avo/ir"
 	"github.com/mmcloughlin/avo/operand"

@@ -2,7 +2,6 @@ package pass
 
 import (
 	"sort"
-
 	"github.com/mmcloughlin/avo/ir"
 )
 

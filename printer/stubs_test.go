@@ -2,7 +2,6 @@ package printer_test
 
 import (
 	"testing"
-
 	"github.com/mmcloughlin/avo/build"
 	"github.com/mmcloughlin/avo/buildtags"
 	"github.com/mmcloughlin/avo/printer"

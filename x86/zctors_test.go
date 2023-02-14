@@ -932,6 +932,9 @@ func TestCALLValidFormsNoError(t *testing.T) {
 	if _, err := CALL(oprel32); err != nil {
 		t.Fatal(err)
 	}
+	if _, err := CALL(opr64); err != nil {
+		t.Fatal(err)
+	}
 }
 
 func TestCBWValidFormsNoError(t *testing.T) {

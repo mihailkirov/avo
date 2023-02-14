@@ -3,7 +3,6 @@ package printer
 import (
 	"strconv"
 	"strings"
-
 	"github.com/mmcloughlin/avo/buildtags"
 	"github.com/mmcloughlin/avo/internal/prnt"
 	"github.com/mmcloughlin/avo/ir"

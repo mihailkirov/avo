@@ -2,7 +2,6 @@ package pass
 
 import (
 	"testing"
-
 	"github.com/mmcloughlin/avo/reg"
 )
 

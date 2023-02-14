@@ -3,7 +3,6 @@ package stack_test
 import (
 	"runtime"
 	"testing"
-
 	"github.com/mmcloughlin/avo/internal/stack"
 )
 

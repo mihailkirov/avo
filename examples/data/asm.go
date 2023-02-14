@@ -4,7 +4,6 @@ package main
 
 import (
 	"math"
-
 	. "github.com/mmcloughlin/avo/build"
 	. "github.com/mmcloughlin/avo/operand"
 )

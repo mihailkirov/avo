@@ -3,7 +3,6 @@ package api
 import (
 	"go/token"
 	"testing"
-
 	"github.com/mmcloughlin/avo/internal/inst"
 )
 

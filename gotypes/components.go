@@ -6,7 +6,6 @@ import (
 	"go/token"
 	"go/types"
 	"strconv"
-
 	"github.com/mmcloughlin/avo/operand"
 	"github.com/mmcloughlin/avo/reg"
 )

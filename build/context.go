@@ -4,9 +4,7 @@ import (
 	"errors"
 	"fmt"
 	"go/types"
-
 	"golang.org/x/tools/go/packages"
-
 	"github.com/mmcloughlin/avo/attr"
 	"github.com/mmcloughlin/avo/buildtags"
 	"github.com/mmcloughlin/avo/gotypes"

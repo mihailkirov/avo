@@ -2,7 +2,6 @@ package operand
 
 import (
 	"fmt"
-
 	"github.com/mmcloughlin/avo/reg"
 )
 

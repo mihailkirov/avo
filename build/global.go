@@ -3,7 +3,6 @@ package build
 import (
 	"flag"
 	"os"
-
 	"github.com/mmcloughlin/avo/attr"
 	"github.com/mmcloughlin/avo/buildtags"
 	"github.com/mmcloughlin/avo/gotypes"

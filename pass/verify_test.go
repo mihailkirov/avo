@@ -3,7 +3,6 @@ package pass
 import (
 	"strings"
 	"testing"
-
 	"github.com/mmcloughlin/avo/ir"
 	"github.com/mmcloughlin/avo/operand"
 	"github.com/mmcloughlin/avo/reg"

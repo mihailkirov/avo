@@ -6,7 +6,6 @@ import (
 	"log"
 	"os"
 	"runtime/pprof"
-
 	"github.com/mmcloughlin/avo/pass"
 	"github.com/mmcloughlin/avo/printer"
 )

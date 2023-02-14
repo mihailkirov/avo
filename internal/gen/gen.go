@@ -2,7 +2,6 @@ package gen
 
 import (
 	"go/format"
-
 	"github.com/mmcloughlin/avo/internal/inst"
 	"github.com/mmcloughlin/avo/printer"
 )

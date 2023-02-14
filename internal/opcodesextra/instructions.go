@@ -3,7 +3,6 @@ package opcodesextra
 
 import (
 	"sort"
-
 	"github.com/mmcloughlin/avo/internal/inst"
 )
 

@@ -3,7 +3,6 @@ package dot
 import (
 	"math/rand"
 	"testing"
-
 	"golang.org/x/sys/cpu"
 )
 

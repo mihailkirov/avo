@@ -3,7 +3,6 @@ package pass
 import (
 	"reflect"
 	"testing"
-
 	"github.com/mmcloughlin/avo/ir"
 )
 

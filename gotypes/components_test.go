@@ -6,7 +6,6 @@ import (
 	"go/types"
 	"strings"
 	"testing"
-
 	"github.com/mmcloughlin/avo/operand"
 	"github.com/mmcloughlin/avo/reg"
 )

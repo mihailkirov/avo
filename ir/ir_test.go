@@ -3,7 +3,6 @@ package ir
 import (
 	"reflect"
 	"testing"
-
 	"github.com/mmcloughlin/avo/operand"
 	"github.com/mmcloughlin/avo/reg"
 )

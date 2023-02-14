@@ -4,7 +4,6 @@ import (
 	"reflect"
 	"sort"
 	"testing"
-
 	"github.com/mmcloughlin/avo/ir"
 	"github.com/mmcloughlin/avo/operand"
 )

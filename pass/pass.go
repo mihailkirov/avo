@@ -3,7 +3,6 @@ package pass
 
 import (
 	"io"
-
 	"github.com/mmcloughlin/avo/ir"
 	"github.com/mmcloughlin/avo/printer"
 )

@@ -5,7 +5,6 @@ import (
 	"flag"
 	"testing"
 	"time"
-
 	"github.com/mmcloughlin/avo/internal/github"
 	"github.com/mmcloughlin/avo/internal/test"
 )

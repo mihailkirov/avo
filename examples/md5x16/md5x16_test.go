@@ -6,7 +6,6 @@ import (
 	"math/rand"
 	"testing"
 	"testing/quick"
-
 	"golang.org/x/sys/cpu"
 )
 

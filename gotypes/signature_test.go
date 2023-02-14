@@ -5,7 +5,6 @@ import (
 	"go/types"
 	"regexp"
 	"testing"
-
 	"golang.org/x/tools/go/packages"
 )
 

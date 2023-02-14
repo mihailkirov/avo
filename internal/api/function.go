@@ -7,7 +7,6 @@ import (
 	"strconv"
 	"strings"
 	"text/tabwriter"
-
 	"github.com/mmcloughlin/avo/internal/inst"
 )
 

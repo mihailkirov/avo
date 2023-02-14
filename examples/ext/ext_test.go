@@ -3,7 +3,6 @@ package ext
 import (
 	"testing"
 	"testing/quick"
-
 	"github.com/mmcloughlin/avo/examples/ext/ext"
 )
 

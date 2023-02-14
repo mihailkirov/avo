@@ -2,7 +2,6 @@ package gen
 
 import (
 	"fmt"
-
 	"github.com/mmcloughlin/avo/internal/api"
 	"github.com/mmcloughlin/avo/internal/inst"
 	"github.com/mmcloughlin/avo/internal/prnt"
