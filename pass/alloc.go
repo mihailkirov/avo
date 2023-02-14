@@ -4,7 +4,7 @@ import (
 	"errors"
 	"math"
 	"sort"
-	"github.com/mmcloughlin/avo/reg"
+	"github.com/mkirov/avo/reg"
 )
 
 // edge is an edge of the interference graph, indicating that registers X and Y

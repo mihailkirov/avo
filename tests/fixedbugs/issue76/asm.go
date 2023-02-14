@@ -3,8 +3,8 @@
 package main
 
 import (
-	. "github.com/mmcloughlin/avo/build"
-	. "github.com/mmcloughlin/avo/reg"
+	. "github.com/mkirov/avo/build"
+	. "github.com/mkirov/avo/reg"
 )
 
 func main() {

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 	"testing"
-	"github.com/mmcloughlin/avo/src"
+	"github.com/mkirov/avo/src"
 )
 
 func TestLogErrorNil(t *testing.T) {

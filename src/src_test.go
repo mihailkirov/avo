@@ -2,7 +2,7 @@ package src_test
 
 import (
 	"fmt"
-	"github.com/mmcloughlin/avo/src"
+	"github.com/mkirov/avo/src"
 )
 
 func ExamplePosition_IsValid() {

@@ -2,8 +2,8 @@ package x86
 
 import (
 	"errors"
-	"github.com/mmcloughlin/avo/ir"
-	"github.com/mmcloughlin/avo/operand"
+	"github.com/mkirov/avo/ir"
+	"github.com/mkirov/avo/operand"
 )
 
 // build constructs an instruction object from a list of acceptable forms, and

@@ -1,6 +1,6 @@
 package opcodesextra
 
-import "github.com/mmcloughlin/avo/internal/inst"
+import "github.com/mkirov/avo/internal/inst"
 
 // bitalg is the "Bit Algorithms" instruction set.
 var bitalg = []*inst.Instruction{

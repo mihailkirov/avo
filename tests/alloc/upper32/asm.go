@@ -4,9 +4,9 @@ package main
 
 import (
 	"strconv"
-	. "github.com/mmcloughlin/avo/build"
-	. "github.com/mmcloughlin/avo/operand"
-	. "github.com/mmcloughlin/avo/reg"
+	. "github.com/mkirov/avo/build"
+	. "github.com/mkirov/avo/operand"
+	. "github.com/mkirov/avo/reg"
 )
 
 // The goal is to test for correct handling of 32-bit operands in 64-bit mode,

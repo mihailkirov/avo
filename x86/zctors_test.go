@@ -8,8 +8,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/mmcloughlin/avo/operand"
-	"github.com/mmcloughlin/avo/reg"
+	"github.com/mkirov/avo/operand"
+	"github.com/mkirov/avo/reg"
 )
 
 var (

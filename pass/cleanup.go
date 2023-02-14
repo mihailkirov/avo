@@ -1,8 +1,8 @@
 package pass
 
 import (
-	"github.com/mmcloughlin/avo/ir"
-	"github.com/mmcloughlin/avo/operand"
+	"github.com/mkirov/avo/ir"
+	"github.com/mkirov/avo/operand"
 )
 
 // PruneJumpToFollowingLabel removes jump instructions that target an

@@ -108,7 +108,7 @@ func (p *Project) Skip() bool {
 
 // Reason returns the reason why the test is skipped.
 func (p *Project) Reason() string {
-	return fmt.Sprintf("https://github.com/mmcloughlin/avo/issues/%d", p.KnownIssue)
+	return fmt.Sprintf("https://github.com/mkirov/avo/issues/%d", p.KnownIssue)
 }
 
 // Step represents a set of commands to run as part of the testing plan for a
@@ -259,8 +259,8 @@ func (p *Package) Steps(c *Context) []*Step {
 		Name:             "Avo Module Replacement",
 		WorkingDirectory: moddir,
 		Commands: []string{
-			"go mod edit -modfile=" + modfile + " -require=github.com/mmcloughlin/avo@" + invalid,
-			"go mod edit -modfile=" + modfile + " -replace=github.com/mmcloughlin/avo=" + c.AvoDirectory,
+			"go mod edit -modfile=" + modfile + " -require=github.com/mkirov/avo@" + invalid,
+			"go mod edit -modfile=" + modfile + " -replace=github.com/mkirov/avo=" + c.AvoDirectory,
 			"go mod tidy -modfile=" + modfile,
 		},
 	})

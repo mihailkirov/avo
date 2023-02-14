@@ -3,9 +3,9 @@
 package build
 
 import (
-	"github.com/mmcloughlin/avo/ir"
-	"github.com/mmcloughlin/avo/operand"
-	"github.com/mmcloughlin/avo/x86"
+	"github.com/mkirov/avo/ir"
+	"github.com/mkirov/avo/operand"
+	"github.com/mkirov/avo/x86"
 )
 
 func (c *Context) addinstruction(i *ir.Instruction, err error) {

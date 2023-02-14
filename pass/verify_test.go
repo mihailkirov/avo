@@ -3,9 +3,9 @@ package pass
 import (
 	"strings"
 	"testing"
-	"github.com/mmcloughlin/avo/ir"
-	"github.com/mmcloughlin/avo/operand"
-	"github.com/mmcloughlin/avo/reg"
+	"github.com/mkirov/avo/ir"
+	"github.com/mkirov/avo/operand"
+	"github.com/mkirov/avo/reg"
 )
 
 func TestVerifyMemOperands(t *testing.T) {

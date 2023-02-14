@@ -3,7 +3,7 @@ package ext
 import (
 	"testing"
 	"testing/quick"
-	"github.com/mmcloughlin/avo/examples/ext/ext"
+	"github.com/mkirov/avo/examples/ext/ext"
 )
 
 //go:generate go run asm.go -out ext.s

@@ -9,8 +9,8 @@ import (
 	"path"
 	"path/filepath"
 	"runtime"
-	"github.com/mmcloughlin/avo/internal/prnt"
-	"github.com/mmcloughlin/avo/tests/thirdparty"
+	"github.com/mkirov/avo/internal/prnt"
+	"github.com/mkirov/avo/tests/thirdparty"
 )
 
 var (

@@ -6,8 +6,8 @@ import (
 	"log"
 	"os"
 	"runtime/pprof"
-	"github.com/mmcloughlin/avo/pass"
-	"github.com/mmcloughlin/avo/printer"
+	"github.com/mkirov/avo/pass"
+	"github.com/mkirov/avo/printer"
 )
 
 // Config contains options for an avo main function.

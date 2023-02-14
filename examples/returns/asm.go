@@ -3,12 +3,12 @@
 package main
 
 import (
-	. "github.com/mmcloughlin/avo/build"
-	. "github.com/mmcloughlin/avo/operand"
+	. "github.com/mkirov/avo/build"
+	. "github.com/mkirov/avo/operand"
 )
 
 func main() {
-	Package("github.com/mmcloughlin/avo/examples/returns")
+	Package("github.com/mkirov/avo/examples/returns")
 
 	TEXT("Interval", NOSPLIT, "func(start, size uint64) (uint64, uint64)")
 	Doc(

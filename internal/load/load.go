@@ -9,17 +9,17 @@ import (
 	"sort"
 	"strconv"
 	"strings"
-	"github.com/mmcloughlin/avo/internal/inst"
-	"github.com/mmcloughlin/avo/internal/opcodescsv"
-	"github.com/mmcloughlin/avo/internal/opcodesextra"
-	"github.com/mmcloughlin/avo/internal/opcodesxml"
+	"github.com/mkirov/avo/internal/inst"
+	"github.com/mkirov/avo/internal/opcodescsv"
+	"github.com/mkirov/avo/internal/opcodesextra"
+	"github.com/mkirov/avo/internal/opcodesxml"
 )
 
 // This file is a mess. Some of this complexity is unavoidable, since the state
 // of x86 instruction databases is also a mess, especially when it comes to
 // idiosyncrasies of the Go assembler implementation. Some of the complexity is
 // probably avoidable by migrating to using Intel XED
-// (https://github.com/mmcloughlin/avo/issues/23), but for now this is an unholy
+// (https://github.com/mkirov/avo/issues/23), but for now this is an unholy
 // mix of PeachPy's Opcodes database and Go's x86 CSV file.
 //
 // The goal is simply to keep as much of the uglyness in this file as possible,
@@ -795,7 +795,7 @@ func evexLLsize(f opcodesxml.Form) int {
 // version is to encode suffixes, and these are represented by other instruction
 // forms.
 //
-// TODO(mbm): restrict use of vector registers https://github.com/mmcloughlin/avo/issues/146
+// TODO(mbm): restrict use of vector registers https://github.com/mkirov/avo/issues/146
 func vexevex(fs []inst.Form) ([]inst.Form, error) {
 	// Group forms by deduping ID.
 	byid := map[string][]inst.Form{}

@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 	"log"
-	"github.com/mmcloughlin/avo/internal/stack"
-	"github.com/mmcloughlin/avo/src"
+	"github.com/mkirov/avo/internal/stack"
+	"github.com/mkirov/avo/src"
 )
 
 // Error represents an error during building, optionally tagged with the position at which it happened.

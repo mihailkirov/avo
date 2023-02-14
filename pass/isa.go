@@ -2,7 +2,7 @@ package pass
 
 import (
 	"sort"
-	"github.com/mmcloughlin/avo/ir"
+	"github.com/mkirov/avo/ir"
 )
 
 // RequiredISAExtensions determines ISA extensions required for the given

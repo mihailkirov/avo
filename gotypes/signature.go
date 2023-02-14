@@ -7,7 +7,7 @@ import (
 	"go/token"
 	"go/types"
 	"strconv"
-	"github.com/mmcloughlin/avo/operand"
+	"github.com/mkirov/avo/operand"
 )
 
 // Signature represents a Go function signature.

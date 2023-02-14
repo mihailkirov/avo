@@ -2,7 +2,7 @@ package printer_test
 
 import (
 	"fmt"
-	"github.com/mmcloughlin/avo/printer"
+	"github.com/mkirov/avo/printer"
 )
 
 func ExampleConfig_GeneratedBy() {

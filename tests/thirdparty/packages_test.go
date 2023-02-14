@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"runtime"
 	"testing"
-	"github.com/mmcloughlin/avo/internal/test"
+	"github.com/mkirov/avo/internal/test"
 )
 
 //go:generate go run make_workflow.go -suite suite.json -output ../../.github/workflows/packages.yml

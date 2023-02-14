@@ -4,9 +4,9 @@ package main
 
 import (
 	"fmt"
-	. "github.com/mmcloughlin/avo/build"
-	. "github.com/mmcloughlin/avo/operand"
-	. "github.com/mmcloughlin/avo/reg"
+	. "github.com/mkirov/avo/build"
+	. "github.com/mkirov/avo/operand"
+	. "github.com/mkirov/avo/reg"
 )
 
 func main() {

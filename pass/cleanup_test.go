@@ -3,11 +3,11 @@ package pass_test
 import (
 	"reflect"
 	"testing"
-	"github.com/mmcloughlin/avo/build"
-	"github.com/mmcloughlin/avo/ir"
-	"github.com/mmcloughlin/avo/operand"
-	"github.com/mmcloughlin/avo/pass"
-	"github.com/mmcloughlin/avo/reg"
+	"github.com/mkirov/avo/build"
+	"github.com/mkirov/avo/ir"
+	"github.com/mkirov/avo/operand"
+	"github.com/mkirov/avo/pass"
+	"github.com/mkirov/avo/reg"
 )
 
 func TestPruneSelfMoves(t *testing.T) {

@@ -12,4 +12,5 @@ func TestAdd(t *testing.T) {
 	if err := quick.CheckEqual(Addcall, expect, nil); err != nil {
 		t.Fatal(err)
 	}
+
 }

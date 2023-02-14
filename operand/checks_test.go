@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"runtime"
 	"testing"
-	"github.com/mmcloughlin/avo/reg"
+	"github.com/mkirov/avo/reg"
 )
 
 func TestChecks(t *testing.T) {

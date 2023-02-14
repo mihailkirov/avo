@@ -12,7 +12,7 @@ import (
 	"os"
 	"path/filepath"
 	"runtime"
-	"github.com/mmcloughlin/avo/attr"
+	"github.com/mkirov/avo/attr"
 )
 
 var (

@@ -5,9 +5,9 @@ import (
 	"math"
 	"strconv"
 	"strings"
-	"github.com/mmcloughlin/avo/internal/inst"
-	"github.com/mmcloughlin/avo/internal/prnt"
-	"github.com/mmcloughlin/avo/printer"
+	"github.com/mkirov/avo/internal/inst"
+	"github.com/mkirov/avo/internal/prnt"
+	"github.com/mkirov/avo/printer"
 )
 
 type asmtest struct {

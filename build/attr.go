@@ -1,6 +1,6 @@
 package build
 
-import "github.com/mmcloughlin/avo/attr"
+import "github.com/mkirov/avo/attr"
 
 // TEXT and DATA attribute values included for convenience.
 const (

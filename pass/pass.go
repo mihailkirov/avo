@@ -3,8 +3,8 @@ package pass
 
 import (
 	"io"
-	"github.com/mmcloughlin/avo/ir"
-	"github.com/mmcloughlin/avo/printer"
+	"github.com/mkirov/avo/ir"
+	"github.com/mkirov/avo/printer"
 )
 
 // Compile pass compiles an avo file. Upon successful completion the avo file

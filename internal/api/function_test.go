@@ -3,7 +3,7 @@ package api
 import (
 	"strings"
 	"testing"
-	"github.com/mmcloughlin/avo/internal/inst"
+	"github.com/mkirov/avo/internal/inst"
 )
 
 func TestFunctionsDuplicateFormSignatures(t *testing.T) {

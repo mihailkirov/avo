@@ -3,7 +3,7 @@ package operand
 import (
 	"reflect"
 	"testing"
-	"github.com/mmcloughlin/avo/reg"
+	"github.com/mkirov/avo/reg"
 )
 
 func TestSymbolString(t *testing.T) {

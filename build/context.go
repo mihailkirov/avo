@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"go/types"
 	"golang.org/x/tools/go/packages"
-	"github.com/mmcloughlin/avo/attr"
-	"github.com/mmcloughlin/avo/buildtags"
-	"github.com/mmcloughlin/avo/gotypes"
-	"github.com/mmcloughlin/avo/ir"
-	"github.com/mmcloughlin/avo/operand"
-	"github.com/mmcloughlin/avo/reg"
+	"github.com/mkirov/avo/attr"
+	"github.com/mkirov/avo/buildtags"
+	"github.com/mkirov/avo/gotypes"
+	"github.com/mkirov/avo/ir"
+	"github.com/mkirov/avo/operand"
+	"github.com/mkirov/avo/reg"
 )
 
 //go:generate avogen -output zinstructions.go build

@@ -3,7 +3,7 @@ package pass
 import (
 	"reflect"
 	"testing"
-	"github.com/mmcloughlin/avo/ir"
+	"github.com/mkirov/avo/ir"
 )
 
 func TestRequiredISAExtensions(t *testing.T) {

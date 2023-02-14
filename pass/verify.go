@@ -2,8 +2,8 @@ package pass
 
 import (
 	"errors"
-	"github.com/mmcloughlin/avo/ir"
-	"github.com/mmcloughlin/avo/operand"
+	"github.com/mkirov/avo/ir"
+	"github.com/mkirov/avo/operand"
 )
 
 // Verify pass validates an avo file.

@@ -3,7 +3,7 @@ package pass
 import (
 	"errors"
 	"fmt"
-	"github.com/mmcloughlin/avo/ir"
+	"github.com/mkirov/avo/ir"
 )
 
 // LabelTarget populates the LabelTarget of the given function. This maps from
