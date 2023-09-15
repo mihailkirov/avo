@@ -1,8 +1,10 @@
 package build
 
 import (
+	"errors"
 	"flag"
 	"os"
+
 	"github.com/mihailkirov/avo/attr"
 	"github.com/mihailkirov/avo/buildtags"
 	"github.com/mihailkirov/avo/gotypes"
@@ -52,6 +54,31 @@ func Generate() {
 	if status != 0 {
 		os.Exit(status)
 	}
+}
+
+// GenerateWithEmptyFlagSet builds and compiles the avo file built with the global context but using
+// as configuration a custom flag set rather than the one from the command line. This
+// should be the final line of any avo program.
+func GenerateWithEmptyFlagSet(fs *flag.FlagSet, args []string) error {
+
+	var flags = NewFlags(fs)
+	fs.Parse(args)
+
+	cfg := flags.Config()
+	// // create a new context to not pollute the generated assembly with other parts of Go
+	// // using AVO
+	//
+
+	status := Main(cfg, ctx)
+
+	// To record coverage of integration tests we wrap main() functions in a test
+	// functions. In this case we need the main function to terminate, therefore we
+	// only exit for failure status codes.
+	if status != 0 {
+		return errors.New("Error generating assembly code")
+	}
+
+	return nil
 }
 
 // Package sets the package the generated file will belong to. Required to be able to reference types in the package.
